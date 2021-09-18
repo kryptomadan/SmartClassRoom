@@ -1,0 +1,288 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    text-decoration: none;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+    background-size: cover;
+    background-position:center;
+    }
+/* this is the start of css part of the header*/
+.header{
+    top: 0; 
+    position: sticky;
+    width:100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+}
+.left-header{
+    width: 6%;
+    height: 100%;
+    background-color:white ;
+    
+}
+.left-header img{
+    height: 100%;
+    width: 100%;
+}
+.sub-header{
+    width: 1150px;
+    height: 100%;
+    margin: 0 auto;
+    
+    display: flex;
+}
+
+.sub-header .inner_header h1 {
+    
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight:100;
+    display: flex;
+    cursor: pointer;
+}
+.sub-header .inner_header h1:hover{
+    color: rgb(0, 183, 255);
+}
+
+.inner_header{
+    display: flex;
+    align-items:center;
+    
+}
+.sub-header span{
+    font-weight:900 ;
+    font-style: italic;
+    display: flex;
+
+}
+
+
+.navigation{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    
+    font-family: 'Montserrat';
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+    justify-content: flex-end;    
+}
+
+
+.navigation a{
+    display:flex;
+    color: white;
+    padding: 0px 20px;
+}
+.navigation a:hover{
+    color: greenyellow;
+}
+/*  end of the header part */
+
+.about{
+    float: none;
+    height: 500px;
+    width: 30%;
+    
+    margin-top: 40px;
+    margin-left: 9%;
+    padding: 30px;
+    display: flex;
+    
+    padding-top: 0%;
+  
+}
+.about .h1tag h1 {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+}
+.about .h1tag p{
+    width: 100%;margin-top: 3px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.about-img {
+width: 50vw;
+height: 500px;
+float: right;
+margin-right: 30px;
+margin-top: 40px;
+
+}
+.homepage-updates{
+	width: 40%;
+	height: 120px;
+	border-radius: 8px;
+	background-color: rgb(192, 192, 192);
+	overflow-y: scroll;
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	margin: 0 auto;
+	margin-top:20px; 	
+	animation-name: example;
+  	animation-duration: 4s;
+	}
+	
+.homepage-updates h3{
+	color:rgb(0, 64, 128);
+	font-family: 'Anton', sans-serif;
+}	
+.homepage-updates p{
+	font-family: 'Anton', sans-serif;
+	text-decoration:underline;
+	color: red;
+	
+}
+
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+ 
+  100% {background-color: green;}
+}
+#footer-container
+{
+    position: relative;
+    margin-bottom: 0%;
+    padding-bottom:0;
+    bottom: 0%;
+    width: 100%;
+    height: 150px;
+    margin-top: 160px;
+    
+    background-color:black ;
+    background: linear-gradient(to left,rgb(238, 238, 238) 40%,black);
+    display: flex;
+    border-top: 2px solid red;
+    
+    
+}
+#footer-img {
+    height: 100%;
+    width: 150px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+ #footer-img img{
+    width: 160px;
+    height: 140px;
+    padding-top: 10px;
+    padding-left: 80px;
+    
+    
+}
+
+
+#footer-container #footer-queries {
+display: flex;
+text-align: center;
+margin-right: 23px;
+padding-right: 30px;
+padding-left :10px;
+width: 130px;
+height: 100%;
+align-items: center;
+justify-content: center;
+font-family: 'Anton', sans-serif;
+font-weight: 600;
+font-size: 18px;
+}
+
+#contact-span{
+    font-size: 20px;
+   font-family:  'Itim', cursive;
+}
+
+
+
+.subwindow{
+width: 30%;
+display: block;
+left: 0;
+height: 100vh;
+
+}
+
+.update-window{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.7);
+	position: absolute;
+	top:0;
+	display: none;
+	justify-content: center;
+	align-items: center;	
+}
+
+.update-container{
+	width: 500px;
+	height: 300px;
+	background-color: white;
+	border-radius: 4px;
+	position: relative;
+	justify-content:center;
+	display:flex;
+	align-items: center;
+	text-align: center;
+}
+.close{
+	position: absolute;
+	top:0;
+	right: 14px;
+	font-size: 40px;
+	cursor: pointer;
+	transform:rotate(45deg);
+}
+
+.update-content p{
+	font-family: 'Anton', sans-serif;
+	font-size: 18px;
+}
+
+.update-content p input[type="text"],
+.update-content p input[type="file"]
+
+{
+	height: 30px;
+	border-radius: 5px;
+	font-family: 'Anton', sans-serif;
+	font-size: 15px;
+	text-align: center;
+}
+
+.update-content input[type="submit"]
+{
+width: 80px;
+height: 40px;
+font-family: 'Anton', sans-serif;
+font-size: 15px;
+border-radius: 10px;
+outline: none;
+background:none;
+border:2px solid green;	
+}
+.update-content input[type="submit"]:hover{
+	background-color: green;
+}
+.update-content h3{
+	font-family: 'Anton', sans-serif;
+}
