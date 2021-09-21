@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    text-decoration: none;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right,rgb(191, 236, 84),rgb(243, 105, 208),rgb(15, 231, 105));
+    }
+
+
+.container{
+   
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container .login-box{
+    
+    margin-top: 40px;
+    width: 25%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    
+    justify-content: center;
+    background-color: whitesmoke;
+    border-radius: 24px;
+}
+ .login-box input
+{
+    width: 50%;
+    
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"]{
+outline: none;  
+border: 0;  background: none;
+display: block;
+color: black;
+text-align: center;
+border-radius: 24px;
+height: 40px;
+font-size: 20px;
+border: 2px solid rgb(243, 105, 208);
+transition: 0.25s;
+}
+
+.login-box p{
+font-size: 18px;
+font-family: 'Krona One', sans-serif;
+text-align: center;
+
+}
+
+.login-box h1:hover{
+border: 2px solid black;    
+transition: 0.50s;
+transform: rotate3d();
+font-size: 30px;
+border-radius: 80px;
+cursor: pointer;
+font-family: 'Krona One', sans-serif;
+
+}
+
+.login-box input[type="text"]:focus,
+.login-box input[type="password"]:focus{
+width: 300px;
+border-color:rgb(83, 140, 214) ;
+
+}
+
+.login-box input[type="submit"]
+{
+    outline: none;
+    background: none;
+    border: 0;
+    border: 2px solid rgb(82, 224, 201);
+    border-radius: 24px;
+    height: 40px;
+    width: 30%;
+    cursor: pointer;
+    font:bold;
+}
+.login-box input[type="submit"]:hover{
+    background-color: rgb(82, 224, 201);
+    
+}
+
+.login-box img{
+    width: 20%;
+    height: 10%;
+    cursor: pointer;
+}
+.login-box img:hover{
+    transition:all 0.50s;
+    transform: rotate(360deg);
+}

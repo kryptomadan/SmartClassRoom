@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techerlogin</title>
+    <link rel="stylesheet" href="../css/styleteachercss.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" >
+        <div class="left-header"><img src="../img/logo.png"></div>
+       <div class="sub-header">
+           
+
+           <div class="inner_header"><h1>SMART<span>ClassRoom</span></h1> </div>
+           
+        <ul class="navigation">
+            <a href="../jsp/home"><li>Home</li></a>
+            <a href="studentlogin.html"><li>StudentLogin</li></a>
+            <a href="teacherlogin.html"><li>TeacherLogin</li></a>
+        </ul>
+       </div>   
+    </header>
+
+    <div class="container">
+        <form action="loginteacher" class="login-box" method="post">
+            <img src="../img/teacher.png" ><br><br>
+            <h1>Teacher Login</h1><br>
+            <p>Enter you username and Password</p><br><br>
+            <input type="text" placeholder="Username" name="usr" required="required"><br>
+            <input type="password" placeholder="Password" name="pass" required="required"><br><br>
+            <input type="submit" value="Login"><br><br>
+            <p style="font-family:'Krona One', sans-serif;font-size:15px;">Don't have an Account? </p><br>
+            <a href="../jsp/teachersregister.jsp" style="font-family:'Krona One', sans-serif; color:rgb(243, 105, 208);">Register</a>
+        </form>
+    </div>
+
+ <!-- about part ends here-->
+ <footer id="footer-container">
+    <div id="footer-img">
+        <img src="../img/logo.png">
+    </div>
+    <div id="footer-queries">
+        <p><span id="contact-span">For Any Queries Contact </span><br><br> 8073461256 <br> smartclass@klesnc.org</p>      
+    </div>
+</footer>
+<!-- Footer part starts from here-->
+
+</body>
+</html>

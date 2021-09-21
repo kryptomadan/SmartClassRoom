@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    text-decoration: none;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right,rgb(108, 228, 97),rgb(82, 224, 201),rgb(83, 140, 214));
+}
+
+.container{
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container .login-box{
+    
+    margin-top: 40px;
+    width: 45%;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    flex-direction: column;
+   
+   
+    background-color: whitesmoke;
+    border-radius: 24px;
+}
+ .login-box input
+{
+    width: 50%;
+    
+}
+
+
+.login-box p{
+font-size: 18px;
+font-family: 'Krona One', sans-serif;
+text-align: center;
+
+}
+.login-box span{
+	font-size: 12px;
+font-family: 'Krona One', sans-serif;
+text-align: center;
+}
+.login-box p input[type="text"] ,
+.login-box p input[type="password"],
+.login-box p input[type="email"]
+{
+    border: none;
+    outline: none;
+    border:2px solid black;
+    border-radius: 24px;
+    width: 200px;
+    height: 30px;
+    font-family:'Krona One', sans-serif ;
+    text-align: center;
+   
+    
+}
+.login-box p #class{
+	border: none;
+    outline: none;
+    border:2px solid black;
+    border-radius: 24px;
+    width: 200px;
+    height: 30px;
+    font-family:'Krona One', sans-serif ;
+    text-align: center;
+}
+
+.login-box p #section{
+	border: none;
+    outline: none;
+    border:2px solid black;
+    border-radius: 24px;
+    width: 200px;
+    height: 30px;
+    font-family:'Krona One', sans-serif ;
+    text-align: center;
+}
+
+.login-box input[type="checkbox"] {
+	
+	align-self: center;
+}
+.login-box #details{
+border: 2px solid black;
+width: 32%;
+height: 7%;
+text-align:center;
+justify-self:center;
+align-self: center;
+
+}
+
+
+.login-box h1:hover{
+border: 2px solid black;    
+transition: 0.50s;
+transform: rotate3d();
+font-size: 30px;
+border-radius: 80px;
+cursor: pointer;
+font-family: 'Krona One', sans-serif;
+}
+
+.login-box h1{
+    
+    align-self: center;
+}
+.login-box #searchbar{
+	align-self:center;
+	width:20%;
+	height:7%;
+}
+
+.login-box img{
+    width: 10%;
+    height: 10%;
+    cursor: pointer;
+    align-self: center;
+    
+}
+
+.login-box img:hover{
+    transition:all 0.50s;
+    transform: rotate(360deg);
+}
+
+.login-box #submit-register{
+	border:2px solid black;
+	outline:none;
+	border-radius: 24px;
+	width:20%;
+	height:7%;
+	align-self:center;
+	font-family: 'Krona One', sans-serif;
+	
+}
+.login-box #submit-register:hover{
+	background-color: rgb(108, 228, 97);
+}
